@@ -12,7 +12,7 @@ namespace ApiForPractik.Controllers
     public class ApplicationRequestsController : ControllerBase
     {
         private readonly RequestContext _context;
-
+ 
         public ApplicationRequestsController(RequestContext context)
         {
             _context = context;
